@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9519471f402d4e8d9249c03dbc911b56, type: 3}
+  m_Name: InitStepConfig_Postload
+  m_EditorClassIdentifier: 
+  IsEnabled: 1
+  StepKey: Postload
+  InfoList:
+  - InjectableTypeName: PlayerViewProvider
+    InitializationMethodName: Init
+    SerialGroup: 
+  - InjectableTypeName: _SkyDew.Scripts.Player.PlayerMotionService
+    InitializationMethodName: Init
+    SerialGroup: 
+  - InjectableTypeName: _SkyDew.Scripts.Player.MotionInputService
+    InitializationMethodName: Init
+    SerialGroup: 
+  - InjectableTypeName: _SkyDew.Scripts.Inventory.InventoryPanelViewService
+    InitializationMethodName: SetupViews
+    SerialGroup: 
+  - InjectableTypeName: _SkyDew.Scripts.Fight.PlayerAttackService
+    InitializationMethodName: Init
+    SerialGroup: 
+  - InjectableTypeName: _SkyDew.Scripts.Fight.Enemy.SlimeSpawner
+    InitializationMethodName: Init
+    SerialGroup: 
+  - InjectableTypeName: _SkyDew.Scripts.Player.PlayerHealthService
+    InitializationMethodName: Init
+    SerialGroup: 

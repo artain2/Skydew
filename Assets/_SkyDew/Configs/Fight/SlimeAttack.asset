@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26d5958d4ba4566813dc0d1789b52dc, type: 3}
+  m_Name: SlimeAttack
+  m_EditorClassIdentifier: 
+  _damage: 3
+  _distance: 3
+  _effect: {fileID: 2288184605127094931, guid: d9b7d7877ed8ea0449b539fd89b03d30, type: 3}

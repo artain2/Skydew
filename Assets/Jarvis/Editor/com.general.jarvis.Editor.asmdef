@@ -1,0 +1,20 @@
+{
+    "name": "com.general.jarvis.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1a364d69678d5b64d85065a582fdb140",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:071160235bd59024bab25fb5da229e85"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

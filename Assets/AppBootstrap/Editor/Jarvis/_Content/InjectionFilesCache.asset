@@ -1,0 +1,791 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de502081f33b866499e0860bdffd2c1a, type: 3}
+  m_Name: InjectionFilesCache
+  m_EditorClassIdentifier: 
+  Nodes:
+  - FullName: GameMechanics.TimeManager.Characters.Motion.CharacterMotionService
+    CodeFile: {fileID: 11500000, guid: f886810a95bfde141adf070f910593fb, type: 3}
+  - FullName: GameMechanics.TimeManager.Characters.CharacterService
+    CodeFile: {fileID: 11500000, guid: 47e1bdffef195a94a8fa26a8811a8f0a, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.CharacterTasksService
+    CodeFile: {fileID: 11500000, guid: 634b46102b7e429c9bb38b192eedac48, type: 3}
+  - FullName: GameMechanics.TimeManager.Collectables.CollectableLoadService
+    CodeFile: {fileID: 11500000, guid: 9e318f6444cf4a05b939ba1aba5e90e1, type: 3}
+  - FullName: GameMechanics.TimeManager.Collectables.CollectableService
+    CodeFile: {fileID: 11500000, guid: 10066bdda57e406d862ae7430cb656e4, type: 3}
+  - FullName: GameMechanics.TimeManager.Collectables.CollectableSpriteService
+    CodeFile: {fileID: 11500000, guid: 9b228668070c4ff5b959dcc7b74730ac, type: 3}
+  - FullName: GameMechanics.TimeManager.Collectables.Views.CollectableViewService
+    CodeFile: {fileID: 11500000, guid: 5a653049892e47448f499cc2da006750, type: 3}
+  - FullName: ProjectCore.GameSystems.ConfigSystem.ConfigService
+    CodeFile: {fileID: 11500000, guid: ef39ff8db723407cb702aef497d3ded7, type: 3}
+  - FullName: ProjectCore.GameSystems.CurrencySystem.CurrencyDataService
+    CodeFile: {fileID: 11500000, guid: 48cd3e34c96e4480b3185a191885d3fb, type: 3}
+  - FullName: ProjectCore.GameSystems.CurrencySystem.CurrencyService
+    CodeFile: {fileID: 11500000, guid: 50ad669ea1ba4c7e900deab3a1ad040e, type: 3}
+  - FullName: ProjectCore.GameSystems.CurrencySystem.CurrencyViewService
+    CodeFile: {fileID: 11500000, guid: 96017c9959f24334b897cab489a8c3c5, type: 3}
+  - FullName: ProjectCore.GameSystems.DataManagement.DataServices.DataService
+    CodeFile: {fileID: 11500000, guid: 908db0b4b7efac545a25e9d867a8547e, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.GameStateService
+    CodeFile: {fileID: 11500000, guid: a1c4753bd2584b86acc8efe091a548bd, type: 3}
+  - FullName: GameMechanics.GlobalMap.Screens.GlobalMapScreenService
+    CodeFile: {fileID: 11500000, guid: ad93881b27924ee6b3525283301298ea, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.JobServices.GotoObjectJobService
+    CodeFile: {fileID: 11500000, guid: 280beb13c4e44054b93260fad77c1aea, type: 3}
+  - FullName: ProjectCore.GameSystems.CurrencySystem.HardCurrencyService
+    CodeFile: {fileID: 11500000, guid: e540645ac6f840e7a756c328f864bedf, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Services.HomeService
+    CodeFile: {fileID: 11500000, guid: 566f68c9ac6940ca9db3ca83e833e9dc, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.JobConstructService
+    CodeFile: {fileID: 11500000, guid: a12e8c337ea74ce787252f4a5accd9b4, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Services.LevelObjectClickService
+    CodeFile: {fileID: 11500000, guid: 050c5979b3a840579bc6a11c4e919ca9, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Services.LevelObjectCollectableCheckerService
+    CodeFile: {fileID: 11500000, guid: 7fd27be722364577b9d014fa44165210, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Services.LevelObjectCollectService
+    CodeFile: {fileID: 11500000, guid: 417091dc339d4ea5aa89b80823099a2f, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Services.LevelObjectDestroyService
+    CodeFile: {fileID: 11500000, guid: a940d7db02864fd7920a8297c01d9750, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.LevelObjectsLoader
+    CodeFile: {fileID: 11500000, guid: 58e36fb62a284a97b9289e3bf789b55f, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Services.LevelObjectSpawnService
+    CodeFile: {fileID: 11500000, guid: 5ef56e584aaa4effa647d3c68a95f360, type: 3}
+  - FullName: GameMechanics.TimeManager.Level.LevelService
+    CodeFile: {fileID: 11500000, guid: 7050b780f8bb41e18b3cfff0514d6b11, type: 3}
+  - FullName: GameMechanics.TimeManager.Level.LevelViewPanel.LevelsViewService
+    CodeFile: {fileID: 11500000, guid: a066f05946964f1db0875b3dc8ee33b3, type: 3}
+  - FullName: GameMechanics.TimeManager.Tasks.LevelTaskCollectableProgressService
+    CodeFile: {fileID: 11500000, guid: 91edbfb64cb245f68963e7e3dfb01792, type: 3}
+  - FullName: GameMechanics.TimeManager.Tasks.LevelTasksService
+    CodeFile: {fileID: 11500000, guid: 4032b7b373704f358da87d0a17d387c9, type: 3}
+  - FullName: GameMechanics.TimeManager.Tasks.Views.LevelTasksViewService
+    CodeFile: {fileID: 11500000, guid: 3371134dc5294a6f943d5aad27676a42, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelTimeService
+    CodeFile: {fileID: 11500000, guid: 0c7bc6df156f45caa44f52e7f08afd43, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelMap.Vertexes.LevelVertexesLoader
+    CodeFile: {fileID: 11500000, guid: be2100d7ea5a427abb8b92681449d13e, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Screens.LocationBuildingScreenService
+    CodeFile: {fileID: 11500000, guid: f0a18e7120804f279e1c02b555072210, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.LoseService
+    CodeFile: {fileID: 11500000, guid: 7b05965426084f5e8879ea95d616fad3, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.TaskCancellation.NotEnoughCollectables.NotEnoughCollectablesViewService
+    CodeFile: {fileID: 11500000, guid: 52795b31c03f4c29b0c7c25367ac959b, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Services.ObstacleService
+    CodeFile: {fileID: 11500000, guid: 25465c8e762a497ca9c7182e3868a8c3, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.JobServices.OperateJobService
+    CodeFile: {fileID: 11500000, guid: 1d030c2e02884ddb8d316d26a95e77b0, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelMap.Path.PathFindService
+    CodeFile: {fileID: 11500000, guid: 0ae912f50bd4473ba341f887e614ade9, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.PauseService
+    CodeFile: {fileID: 11500000, guid: 376a6b5087754441b42a3196b8092392, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.JobServices.PeekResourcesJobService
+    CodeFile: {fileID: 11500000, guid: 9f1b682c76a845c69b8c767d44e2e6f6, type: 3}
+  - FullName: ProjectCore.AssetManagement.ResourcesAssetProvider
+    CodeFile: {fileID: 11500000, guid: 53d7de2fc5794d89928ac5be475c0a61, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.JobServices.ReturnHomeJobService
+    CodeFile: {fileID: 11500000, guid: 2a0c15e9392642e59334d24c665f61c8, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Schedule.ScheduleViewService
+    CodeFile: {fileID: 11500000, guid: b06fb616c5064a7da2df0dca0d941498, type: 3}
+  - FullName: ProjectCore.GameSystems.ScreenSystem.Screens.ScreenService
+    CodeFile: {fileID: 11500000, guid: e612ace453cf48279d9c55f4c3062960, type: 3}
+  - FullName: ProjectCore.GameSystems.ScreenSystem.Screens.ScreenViewService
+    CodeFile: {fileID: 11500000, guid: 3a20a288c6fb41d8b9bb62d8f7bb6491, type: 3}
+  - FullName: ProjectCore.GameSystems.SettingsSystem.SettingsService
+    CodeFile: {fileID: 11500000, guid: 581a88275c5049569c55c1178b8c72c6, type: 3}
+  - FullName: ProjectCore.GameSystems.SettingsSystem.SettingsViewService
+    CodeFile: {fileID: 11500000, guid: 8fe9513af63d41c58eac1222bb85adda, type: 3}
+  - FullName: ProjectCore.GameSystems.ShopSystem.ShopService
+    CodeFile: {fileID: 11500000, guid: 3691ac6257f9429a84637ed70b5120e1, type: 3}
+  - FullName: ProjectCore.GameSystems.ShopSystem.ShopViewService
+    CodeFile: {fileID: 11500000, guid: 11d5b0cfb54e4d468afe507f4a02f896, type: 3}
+  - FullName: ProjectCore.GameSystems.CurrencySystem.SoftCurrencyService
+    CodeFile: {fileID: 11500000, guid: ba5f5f3add2746eba600c2075326226c, type: 3}
+  - FullName: ProjectCore.GameSystems.CurrencySystem.SoftCurrencyViewService
+    CodeFile: {fileID: 11500000, guid: 91472d62d8b648d9bedc509b25ce4643, type: 3}
+  - FullName: ProjectCore.GameSystems.SoundSystem.SoundService
+    CodeFile: {fileID: 11500000, guid: 3e180c242d214c22a49350906e4fdaac, type: 3}
+  - FullName: ProjectCore.GameSystems.ScreenSystem.Screens.StartScreenService
+    CodeFile: {fileID: 11500000, guid: 8d23bf6a3ac94b7b940f840fa83febf4, type: 3}
+  - FullName: ProjectCore.GameSystems.DataManagement.Storages.StorageDataService
+    CodeFile: {fileID: 11500000, guid: e8108daa61c445ae88927c21cf85d0e8, type: 3}
+  - FullName: GameMechanics.TimeManager.Collectables.TaskLoadService
+    CodeFile: {fileID: 11500000, guid: f9a4aae749fe4f6da35fa8804698feee, type: 3}
+  - FullName: GameMechanics.TimeManager.Screens.TimeManagerScreenService
+    CodeFile: {fileID: 11500000, guid: 672274dff65a41e5bc426e0a6b830f5d, type: 3}
+  - FullName: ProjectCore.GameSystems.UIManagement.UIService
+    CodeFile: {fileID: 11500000, guid: 50c9005a19d949458b7f715fc0a45ced, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelMap.Vertexes.VertexClickService
+    CodeFile: {fileID: 11500000, guid: cc7dd6c81aee4813bc2afef74d363122, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelMap.Vertexes.VertexService
+    CodeFile: {fileID: 11500000, guid: 6d53d6593ff24c478650ebb2a7422d6f, type: 3}
+  - FullName: ProjectCore.GameSystems.UIManagement.WindowSystem.WindowService
+    CodeFile: {fileID: 11500000, guid: bfaad9086563b9a4aaaac7edda5cc240, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.WinService
+    CodeFile: {fileID: 11500000, guid: 46b518fb81ed4d0183fc40eab1d2eb4c, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.TaskCancellation.WrongPath.WrongPathViewService
+    CodeFile: {fileID: 11500000, guid: cf351963169147aca9a2210c4365f6a2, type: 3}
+  - FullName: ProjectCore.Test.DemoMasterService
+    CodeFile: {fileID: 11500000, guid: 7d21dd195f8d403e8c86a579d56ee2c8, type: 3}
+  - FullName: ProjectCore.Test.DemoSlaveA1
+    CodeFile: {fileID: 11500000, guid: 7d21dd195f8d403e8c86a579d56ee2c8, type: 3}
+  - FullName: ProjectCore.Test.DemoSlaveA2
+    CodeFile: {fileID: 11500000, guid: 7d21dd195f8d403e8c86a579d56ee2c8, type: 3}
+  - FullName: ProjectCore.Test.DemoSlaveAB
+    CodeFile: {fileID: 11500000, guid: 7d21dd195f8d403e8c86a579d56ee2c8, type: 3}
+  - FullName: ProjectCore.Test.DemoSlaveABInactive
+    CodeFile: {fileID: 11500000, guid: 7d21dd195f8d403e8c86a579d56ee2c8, type: 3}
+  - FullName: ProjectCore.Test.DemoSlaveB1
+    CodeFile: {fileID: 11500000, guid: 7d21dd195f8d403e8c86a579d56ee2c8, type: 3}
+  - FullName: ProjectCore.Test.DemoSlaveB2
+    CodeFile: {fileID: 11500000, guid: 7d21dd195f8d403e8c86a579d56ee2c8, type: 3}
+  - FullName: ProjectCore.Test.DemoSlaveB
+    CodeFile: {fileID: 11500000, guid: 8cf0b130b2d24ea697b5f02ae45ca112, type: 3}
+  - FullName: ProjectCore.Test.DemoSlaveA
+    CodeFile: {fileID: 11500000, guid: 5720fd8513784fad8ec4e06b5ab11a82, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Home.HomeService
+    CodeFile: {fileID: 11500000, guid: 566f68c9ac6940ca9db3ca83e833e9dc, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Clickable.LevelObjectClickService
+    CodeFile: {fileID: 11500000, guid: 050c5979b3a840579bc6a11c4e919ca9, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Requester.LevelObjectCollectableCheckerService
+    CodeFile: {fileID: 11500000, guid: 7fd27be722364577b9d014fa44165210, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.ItemGiver.LevelObjectCollectService
+    CodeFile: {fileID: 11500000, guid: 417091dc339d4ea5aa89b80823099a2f, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Destroy.LevelObjectDestroyService
+    CodeFile: {fileID: 11500000, guid: a940d7db02864fd7920a8297c01d9750, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Spawner.LevelObjectSpawnService
+    CodeFile: {fileID: 11500000, guid: 5ef56e584aaa4effa647d3c68a95f360, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Obstacle.ObstacleService
+    CodeFile: {fileID: 11500000, guid: 25465c8e762a497ca9c7182e3868a8c3, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Operating.OperatingService
+    CodeFile: {fileID: 11500000, guid: 30083f6048d241279f69ab30e2287d75, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Outline.OutlineCollectablesService
+    CodeFile: {fileID: 11500000, guid: c124952deabb43f59504b939cd5ae05c, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Outline.OutlinePathService
+    CodeFile: {fileID: 11500000, guid: 8f6cc3cac60e47f6a807ad752134a644, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Outline.OutlineService
+    CodeFile: {fileID: 11500000, guid: 9aed7a8c7f7c4631be300cd0cc4da640, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Outline.ClearPathService
+    CodeFile: {fileID: 11500000, guid: 8f6cc3cac60e47f6a807ad752134a644, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Reachability.LevelObjectReachabilityService
+    CodeFile: {fileID: 11500000, guid: 8f6cc3cac60e47f6a807ad752134a644, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Outline.OutlineViewService
+    CodeFile: {fileID: 11500000, guid: 9ac28939d6c44112ad0fd3c447e6e95c, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Idle.CharacterIdleService
+    CodeFile: {fileID: 11500000, guid: 1367741c4a03468191ffa6c6fd4c8ea6, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.TaskCancellation.TaskCompletableService
+    CodeFile: {fileID: 11500000, guid: 68e9c0f3c2e140fcb886a496d9b653c9, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Schedule.ScheduleService
+    CodeFile: {fileID: 11500000, guid: d0da540301b44af4af872b86b42d8d2e, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Reachability.OperatingExtendedReachabilityService
+    CodeFile: {fileID: 11500000, guid: 466356a41f344118818c6f534cd7d8b1, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Reachability.OperatingEnableExtendedReachabilityService
+    CodeFile: {fileID: 11500000, guid: 466356a41f344118818c6f534cd7d8b1, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Attached.LevelObjectMapService
+    CodeFile: {fileID: 11500000, guid: 871fe35bc39c466c95724af862ef82cd, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.TaskTrigger.TaskTriggerService
+    CodeFile: {fileID: 11500000, guid: 1aef4317c45c4ed3a2f490f0f29aa040, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Reachability.ObjectBecomeReachableService
+    CodeFile: {fileID: 11500000, guid: 6f844a524f5c463dae84909af43ad248, type: 3}
+  - FullName: ProjectCore.Cameras.CameraService
+    CodeFile: {fileID: 11500000, guid: 108c56c94cf63e64dad2fb27f3aaddfd, type: 3}
+  - FullName: GameMechanics.TimeManager.Collectables.GhostService
+    CodeFile: {fileID: 11500000, guid: 81e59a2fa2e34f468d683deef1eb92f9, type: 3}
+  - FullName: GameMechanics.TimeManager.Tasks.LevelTaskCollectProgressService
+    CodeFile: {fileID: 11500000, guid: 80b1b2e3841c4c478ce9743d50651911, type: 3}
+  - FullName: GameMechanics.LocationBuilding.LocationDataService
+    CodeFile: {fileID: 11500000, guid: ef5b30c8854440e9bf9828e5c11346d8, type: 3}
+  - FullName: GameMechanics.LocationBuilding.LocationService
+    CodeFile: {fileID: 11500000, guid: 743fd8da667144639fd40de4cf04d64b, type: 3}
+  - FullName: GameMechanics.LocationBuilding.LocationTaskService
+    CodeFile: {fileID: 11500000, guid: 126eb51a8868463aa91023a2374c7930, type: 3}
+  - FullName: GameMechanics.GlobalMap.MapDataService
+    CodeFile: {fileID: 11500000, guid: af1c32989f0d485184c738a363a099e9, type: 3}
+  - FullName: GameMechanics.GlobalMap.MapService
+    CodeFile: {fileID: 11500000, guid: a5db86ab830645598bc6cd6154c7f469, type: 3}
+  - FullName: GameMechanics.GlobalMap.MapViewService
+    CodeFile: {fileID: 11500000, guid: 32965cae43124d4e9a4642274a70a963, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Bubble.BubbleService
+    CodeFile: {fileID: 11500000, guid: 7686933b900540a48b675d2aa77829e1, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.TaskTrigger.TriggerService
+    CodeFile: {fileID: 11500000, guid: 1aef4317c45c4ed3a2f490f0f29aa040, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.JobServices.WaitOthersJobService
+    CodeFile: {fileID: 11500000, guid: edf91daee246424194611dffaac98992, type: 3}
+  - FullName: GameMechanics.TimeManager.Characters.Delivery.DeliveryService
+    CodeFile: {fileID: 11500000, guid: b1f854354ec246649351eb80d3f62c95, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.TaskCancellation.NotEnoughWorkers.NotEnoughWorkersService
+    CodeFile: {fileID: 11500000, guid: f8b94c8502b9460691079e9c1a637142, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.TaskCancellation.NotEnoughCollectables.NotEnoughCollectablesService
+    CodeFile: {fileID: 11500000, guid: 52795b31c03f4c29b0c7c25367ac959b, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Requester.RequesterService
+    CodeFile: {fileID: 11500000, guid: 5095359f73f94e0ca3ca27cc78feab08, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelMap.LevelMapAdaptationService
+    CodeFile: {fileID: 11500000, guid: d575002ca27846a49a50906bebc8a71c, type: 3}
+  - FullName: ProjectCore.GameSystems.UIManagement.ResolutionAdaptation.ResolutionAdapterService
+    CodeFile: {fileID: 11500000, guid: 9f5d8b99493e4e5998d9fab5ab4d94c4, type: 3}
+  - FullName: ProjectCore.GameSystems.UIManagement.ResolutionAdaptation.ResolutionCameraService
+    CodeFile: {fileID: 11500000, guid: 1001c19890fb4ba5b1c4d3120b9a90c1, type: 3}
+  - FullName: GameMechanics.TimeManager.Characters.CharacterEntranceService
+    CodeFile: {fileID: 11500000, guid: 036fa8019a42447293e16eef87e5e336, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Entrance.EntranceService
+    CodeFile: {fileID: 11500000, guid: f045aa1da5e2497680bea8ba256da9a5, type: 3}
+  - FullName: GameMechanics.TimeManager.Collectables.CurrencySpriteService
+    CodeFile: {fileID: 11500000, guid: 730ed9c06f5b46c9a15e21674dbffec4, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.GameStartService
+    CodeFile: {fileID: 11500000, guid: 0b0bcbb6c99644a59613c10ece1a0f5e, type: 3}
+  - FullName: ProjectCore.AssetManagement.AddressablesAssetProvider
+    CodeFile: {fileID: 11500000, guid: e2a6ab419fe290a45be5c254c7abb93f, type: 3}
+  - FullName: ProjectCore.AssetManagement.AddressablesService
+    CodeFile: {fileID: 11500000, guid: 39c8a9330e19495190ed28d23a4150f5, type: 3}
+  - FullName: ProjectCore.AssetManagement.AssetBundles.AssetBundleService
+    CodeFile: {fileID: 11500000, guid: 890b32b449a164d05ace16e1651f2255, type: 3}
+  - FullName: ProjectCore.AssetManagement.AssetBundles.AssetBundleStarterTemplate
+    CodeFile: {fileID: 11500000, guid: 48cfa874d010c1d4aad3eb59e84e54dd, type: 3}
+  - FullName: ProjectCore.Cameras.StartShadowService
+    CodeFile: {fileID: 11500000, guid: 856df862ab0f48b5b2e0570f4aa70094, type: 3}
+  - FullName: ProjectCore.AssetManagement.AssetBundles.BundleBootstrapService
+    CodeFile: {fileID: 11500000, guid: ec53fe74a7954371bb58fa2743b3ca17, type: 3}
+  - FullName: ProjectCore.GameSystems.DataManagement.DataPrefs
+    CodeFile: {fileID: 11500000, guid: c73236433e9442c68f41aafd98fda433, type: 3}
+  - FullName: ProjectCore.GameSystems.Localization.LocalizationBootstrapService
+    CodeFile: {fileID: 11500000, guid: 5366d482cbbf4fcdad92f13e3b9e476b, type: 3}
+  - FullName: ProjectCore.AssetManagement.AssetBundles.LocalizationBundleRequestService
+    CodeFile: {fileID: 11500000, guid: 52cd2bc6c74949a3aba541ce00306e9e, type: 3}
+  - FullName: ProjectCore.AssetManagement.AssetBundles.LocationBundleRequestService
+    CodeFile: {fileID: 11500000, guid: c4b2b6e528204886ac38129e3abaafd3, type: 3}
+  - FullName: ProjectCore.AssetManagement.AssetBundles.RemoteTestPreviewBundleRequestService
+    CodeFile: {fileID: 11500000, guid: bb4e521c590142ee8cf76900b14007a8, type: 3}
+  - FullName: ProjectCore.AssetManagement.Remotes.RemoteManifestService
+    CodeFile: {fileID: 11500000, guid: 58000034e67d4ce481f6f5ea22bf68ca, type: 3}
+  - FullName: GameMechanics.TimeManager.Characters.Motion.CharacterMotionSpeedService
+    CodeFile: {fileID: 11500000, guid: 6e932581c6c6899488ee8b2f363842b8, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Powerups.BonusTime.PowerupBonusTimeService
+    CodeFile: {fileID: 11500000, guid: 01b35b62ad7207342b7519278f9715ec, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Powerups.FastMove.PowerupFastMoveService
+    CodeFile: {fileID: 11500000, guid: a30e7ef8f049198498bcbee569375f26, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Powerups.FastWork.PowerupFastWorkService
+    CodeFile: {fileID: 11500000, guid: f2a4dd3e9f1e80743aa235fa100d2dc9, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.JobServices.WorkSpeedService
+    CodeFile: {fileID: 11500000, guid: 9dff8365d21afc84c943e0b9178cbb8d, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.CollectablesStorageService
+    CodeFile: {fileID: 11500000, guid: 7dc6a213e1ac4a64194b990c06befdb6, type: 3}
+  - FullName: GameMechanics.LocationBuilding.LocationBuildingsLoader
+    CodeFile: {fileID: 11500000, guid: c4b2b6e528204886ac38129e3abaafd3, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationBuildingsService
+    CodeFile: {fileID: 11500000, guid: 126eb51a8868463aa91023a2374c7930, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationTasksBalanceLoader
+    CodeFile: {fileID: 11500000, guid: 62d4fc607667f614da0802fdeb403ff8, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationTasksService
+    CodeFile: {fileID: 11500000, guid: 0cdbcef364f482d458a78ace505da6d3, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationTaskCompletionManager
+    CodeFile: {fileID: 11500000, guid: 2e5f9b99230800e4d85256e189b576be, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationTaskViewService
+    CodeFile: {fileID: 11500000, guid: 43df33a9e2bbad94a97d0101af838b08, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationBuildingsAnimationService
+    CodeFile: {fileID: 11500000, guid: 5e0b7727490cfec4194ce2cf8d9211bf, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationTaskPanelService
+    CodeFile: {fileID: 11500000, guid: 43df33a9e2bbad94a97d0101af838b08, type: 3}
+  - FullName: ProjectCore.GameSystems.CurrencySystemMVC.MetaCurrencyModel
+    CodeFile: {fileID: 11500000, guid: be122605710a4f1499b0c63f740c4949, type: 3}
+  - FullName: ProjectCore.GameSystems.CurrencySystemMVC.MetaCurrencyService
+    CodeFile: {fileID: 11500000, guid: f33eb9d130d0fda47b447770b05aa572, type: 3}
+  - FullName: ProjectCore.GameSystems.CurrencySystemMVC.MetaCurrencyViewService
+    CodeFile: {fileID: 11500000, guid: 670cc7b3b29ef284fb852862c5c4ca6b, type: 3}
+  - FullName: GameMechanics.GlobalMap.GlobalMapIncomeService
+    CodeFile: {fileID: 11500000, guid: d8722f9eeb444713b9236e25ba5114f1, type: 3}
+  - FullName: ProjectCore.GameSystems.CurrencySystem.CurrencyTypes.IntCurrencyTypeService
+    CodeFile: {fileID: 11500000, guid: e85031b4431341888520126d667f83d6, type: 3}
+  - FullName: ProjectCore.GameSystems.CurrencySystem.LifeCurrencyService
+    CodeFile: {fileID: 11500000, guid: d84cbadb30c849aa854e61ac94feb250, type: 3}
+  - FullName: GameMechanics.GlobalMap.MapBalanceBootstrapService
+    CodeFile: {fileID: 11500000, guid: dc9892006b3e20f4f90cb902c729e9b3, type: 3}
+  - FullName: GameMechanics.GlobalMap.MapBalanceService
+    CodeFile: {fileID: 11500000, guid: 3773434c4bed490eb075316039714793, type: 3}
+  - FullName: GameMechanics.GlobalMap.MapViewWithCar
+    CodeFile: {fileID: 11500000, guid: 7b3383a6a82142de8d988ce49beb1656, type: 3}
+  - FullName: GameMechanics.GlobalMap.MapViewWithSwitch
+    CodeFile: {fileID: 11500000, guid: 377ea789d5ff4591865e058bb7074cb9, type: 3}
+  - FullName: ProjectCore.GameSystems.CurrencySystem.XPCurrencyService
+    CodeFile: {fileID: 11500000, guid: 3f5ba4583ad64e1494d9ec1f68ddf84f, type: 3}
+  - FullName: GameMechanics.GlobalMap.CameraSnapper
+    CodeFile: {fileID: 11500000, guid: b6a16e164aa649b59643489ed0dabd8b, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.DoubleGameResourceOperationService
+    CodeFile: {fileID: 11500000, guid: c30ef61cf2344944827b5292382f1d2d, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.GameResourceDataService
+    CodeFile: {fileID: 11500000, guid: 48cd3e34c96e4480b3185a191885d3fb, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.GameResourceService
+    CodeFile: {fileID: 11500000, guid: 50ad669ea1ba4c7e900deab3a1ad040e, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.GameResourceViewService
+    CodeFile: {fileID: 11500000, guid: 96017c9959f24334b897cab489a8c3c5, type: 3}
+  - FullName: GameMechanics.GlobalMap.GlobalMapIncomeDataService
+    CodeFile: {fileID: 11500000, guid: c5f3c1f175e148699310dcb507d45b3f, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.IntGameResourceOperationService
+    CodeFile: {fileID: 11500000, guid: e85031b4431341888520126d667f83d6, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationTasksDataService
+    CodeFile: {fileID: 11500000, guid: dcf4700d0fbda204fbe8a0e01e8b0531, type: 3}
+  - FullName: GameMechanics.MapLocationTimeManager.MapLocationBridgeService
+    CodeFile: {fileID: 11500000, guid: fdb8a6f525ab427e848ad7c28d726586, type: 3}
+  - FullName: GameMechanics.TimeManager.PreLevelBoosters.PreLevelBoosterConfigProvider
+    CodeFile: {fileID: 11500000, guid: b448adac3f3c7104cbf92862a639d2aa, type: 3}
+  - FullName: GameMechanics.TimeManager.PreLevelBoosters.PreLevelBoosterDataService
+    CodeFile: {fileID: 11500000, guid: d2f06dd39f6a3914887253b95302fbf1, type: 3}
+  - FullName: GameMechanics.TimeManager.PreLevelBoosters.PreLevelBoosterService
+    CodeFile: {fileID: 11500000, guid: 9728216a3456e5b409d3f05a2507e6c1, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.RechargeableGameResourcesOperationService
+    CodeFile: {fileID: 11500000, guid: 0c59593d28524383906361c2bf6e9d55, type: 3}
+  - FullName: GameMechanics.GlobalMap.LocationTaskBootstrapService
+    CodeFile: {fileID: 11500000, guid: 80edc0666e194a35bdcd8fa7dd0ce3d1, type: 3}
+  - FullName: GameMechanics.TimeManager.TimeManagerBundleRequester
+    CodeFile: {fileID: 11500000, guid: 5f79aa9b8b714daea39918b916800bf9, type: 3}
+  - FullName: GameMechanics.TimeManager.Level.LevelConfigProvider
+    CodeFile: {fileID: 11500000, guid: 83522e8e01dca2749831787289a27956, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.TaskCancellation.NotAvailableObjectsService
+    CodeFile: {fileID: 11500000, guid: b592f3ebd09ce8e47847d1818a9786e2, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.StartLevelService
+    CodeFile: {fileID: 11500000, guid: bc613115472996f4ab8f2adb51dafddd, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.Trash.TrashService
+    CodeFile: {fileID: 11500000, guid: 335628e5fa105ca4087f7d2a11bbdb8f, type: 3}
+  - FullName: GameMechanics.TimeManager.Level.LevelConfigLoader
+    CodeFile: {fileID: 11500000, guid: d506f2696c954a8f977210df5a4c2fa0, type: 3}
+  - FullName: ProjectCore.AssetManagement.CsvBootstrapService
+    CodeFile: {fileID: 11500000, guid: fc39cd2ccccd41f1b93f6c2cdbab701a, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelConstructor.HotRun.HotRunService
+    CodeFile: {fileID: 11500000, guid: ba89c19893c2e1a4aa3bd77b3bd5c149, type: 3}
+  - FullName: ProjectCore.AssetManagement.CSV.CSVBootstrapService
+    CodeFile: {fileID: 11500000, guid: fc39cd2ccccd41f1b93f6c2cdbab701a, type: 3}
+  - FullName: GameMechanics.TimeManager.SpriteIconGiver
+    CodeFile: {fileID: 11500000, guid: 2eabaa1f5c0f4de5a47882cd31078c48, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.General.LOTimerService
+    CodeFile: {fileID: 11500000, guid: cce7c1afa1b4f254b9bb1c6c2f7cf2cd, type: 3}
+  - FullName: GameMechanics.TimeManager.ConfigLoadService
+    CodeFile: {fileID: 11500000, guid: a9a912c31019402abc2972a3e3c48624, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.GameResourcesBootstrapService
+    CodeFile: {fileID: 11500000, guid: b740f0a756844b2b960245ed4aff9b2e, type: 3}
+  - FullName: ProjectCore.GameSystems.InternetService
+    CodeFile: {fileID: 11500000, guid: 607b8c0006c14b6b89598df8c3824289, type: 3}
+  - FullName: GameMechanics.TimeManager.TimeManagerBalanceConfigService
+    CodeFile: {fileID: 11500000, guid: 6d48ea3cd55b4c4a8d8bda18df2ef6ed, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationScreenCompleteService
+    CodeFile: {fileID: 11500000, guid: aa4adbbefcee4d5b819ec183e6c023a1, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationTaskConfigProvider
+    CodeFile: {fileID: 11500000, guid: 80edc0666e194a35bdcd8fa7dd0ce3d1, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationTasksListService
+    CodeFile: {fileID: 11500000, guid: 37932cd87aca4f39ba13ebe70fce1729, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationBuildingsConfigProvider
+    CodeFile: {fileID: 11500000, guid: 741632a6b288441f84a624eee49afd76, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationCompleteService
+    CodeFile: {fileID: 11500000, guid: 464ac2964c594f9fa429a1e44649fc18, type: 3}
+  - FullName: GameMechanics.TimeManager.Boosters.BoosterConfigProvider
+    CodeFile: {fileID: 11500000, guid: b448adac3f3c7104cbf92862a639d2aa, type: 3}
+  - FullName: GameMechanics.TimeManager.Boosters.BoosterDataService
+    CodeFile: {fileID: 11500000, guid: d2f06dd39f6a3914887253b95302fbf1, type: 3}
+  - FullName: GameMechanics.TimeManager.Collectables.CollectablesAnimationService
+    CodeFile: {fileID: 11500000, guid: 7beddb50188142a587ebfdeaa78964ec, type: 3}
+  - FullName: GameMechanics.TimeManager.Boosters.LevelBoosters.LevelBoosterBuyWindowService
+    CodeFile: {fileID: 11500000, guid: 5aaaa4410af54f85995c2eff735f0d77, type: 3}
+  - FullName: GameMechanics.TimeManager.Boosters.LevelBoosters.LevelBoosterService
+    CodeFile: {fileID: 11500000, guid: 22ca91849011469a88faec8028f565bd, type: 3}
+  - FullName: GameMechanics.TimeManager.Boosters.LevelBoosters.LevelBoosterViewService
+    CodeFile: {fileID: 11500000, guid: b59e039eb62648a9ba303b772733d51a, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.TaskCancellation.NotEnoughCollectablesService
+    CodeFile: {fileID: 11500000, guid: 52795b31c03f4c29b0c7c25367ac959b, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.TaskCancellation.NotEnoughWorkersService
+    CodeFile: {fileID: 11500000, guid: f8b94c8502b9460691079e9c1a637142, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.TaskCancellation.PathBlockedViewService
+    CodeFile: {fileID: 11500000, guid: 77c9a94ec4eb4cc2b335b786b706057d, type: 3}
+  - FullName: GameMechanics.TimeManager.Boosters.PreLevelBoosters.PreLevelBoosterService
+    CodeFile: {fileID: 11500000, guid: 9728216a3456e5b409d3f05a2507e6c1, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.CanStarting.TaskCanStartingService
+    CodeFile: {fileID: 11500000, guid: 2c226a82852a52844831448eec25797b, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.TaskCancellation.WrongPathViewService
+    CodeFile: {fileID: 11500000, guid: cf351963169147aca9a2210c4365f6a2, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelScaler
+    CodeFile: {fileID: 11500000, guid: e5767b71400c4d26a88ac02ae5f685e2, type: 3}
+  - FullName: GameMechanics.TimeManager.Collectables.CollectableBubbleService
+    CodeFile: {fileID: 11500000, guid: 8d6a997df09846c4c835a71323973ecc, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.ItemGiver.ItemGiverService
+    CodeFile: {fileID: 11500000, guid: ac95a08116da455f9001c8c976cb4646, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.General.HighlightService
+    CodeFile: {fileID: 11500000, guid: 814c99bfbfe84761a35bdf6e42cc6aa8, type: 3}
+  - FullName: GameMechanics.TimeManager.Boosters.PreLevelBoosters.PreLevelBoosterActivationService
+    CodeFile: {fileID: 11500000, guid: 31bcaa93da93408c8fce5537871c8f81, type: 3}
+  - FullName: GameMechanics.TimeManager.Boosters.PreLevelBoosters.ResourceDeliveryBoosterService
+    CodeFile: {fileID: 11500000, guid: 46d3ffc4de4445af90201ac948768947, type: 3}
+  - FullName: GameMechanics.TimeManager.Boosters.PreLevelBoosters.FireworkBoosterService
+    CodeFile: {fileID: 11500000, guid: 7f264b45069f44488dc7b4e81b2350f1, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.TapObjects.TapLevelObjectCreateService
+    CodeFile: {fileID: 11500000, guid: 80384b970d3e4c43b158373b8fb2137a, type: 3}
+  - FullName: GameMechanics.TimeManager.Boosters.PreLevelBoosters.MegaBaseBoosterService
+    CodeFile: {fileID: 11500000, guid: 97e57c847eeb4e92b8b0570e60b95790, type: 3}
+  - FullName: ProjectCore.GameSystems.ShopSystem.IAPConfigRequester
+    CodeFile: {fileID: 11500000, guid: b85fc9d9654243ee81be5bea1daa0f86, type: 3}
+  - FullName: ProjectCore.GameSystems.AssetManagement.LoadAssetService
+    CodeFile: {fileID: 11500000, guid: 2349938800da4a3f9b55c0d178c5c3a4, type: 3}
+  - FullName: ProjectCore.GameSystems.ShopSystem.IAPS.PurchasingService
+    CodeFile: {fileID: 11500000, guid: 3e7022991d6e4ee59ab711c02343a4c7, type: 3}
+  - FullName: ProjectCore.GameSystems.ShopSystem.ShopConfigRequester
+    CodeFile: {fileID: 11500000, guid: c68bbc6229d346a38316e05412e0488c, type: 3}
+  - FullName: ProjectCore.GameSystems.ShopSystem.ShopDataService
+    CodeFile: {fileID: 11500000, guid: b928608cecf14d75bb8a29c92d277db8, type: 3}
+  - FullName: ProjectCore.GameSystems.ShopSystem.HardBlock.ShopHardService
+    CodeFile: {fileID: 11500000, guid: 30a6eeead5f14ad98d441c3f55fec357, type: 3}
+  - FullName: ProjectCore.GameSystems.ShopSystem.HardBlock.ShopHardViewService
+    CodeFile: {fileID: 11500000, guid: bd1362f5884c461ebd204eed2ff3a46e, type: 3}
+  - FullName: ProjectCore.GameSystems.ShopSystem.Offers.ShopOfferService
+    CodeFile: {fileID: 11500000, guid: 9db9051c440947dd87b550161e4b8a94, type: 3}
+  - FullName: ProjectCore.GameSystems.ShopSystem.Offers.ShopOfferViewService
+    CodeFile: {fileID: 11500000, guid: 992a15b9da094eeea42c76f2c9a15fdb, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.SubTypeGameResourceOperationService
+    CodeFile: {fileID: 11500000, guid: ede75c55433041ab8150ea67f9f4420c, type: 3}
+  - FullName: GameMechanics.GlobalMap.GlobalMapBundleRequester
+    CodeFile: {fileID: 11500000, guid: 96024206aea64545b4bc49a9dc24a6d5, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Win.LevelRewardService
+    CodeFile: {fileID: 11500000, guid: 4cd1e5adf4b74ee98d23e025b79685ce, type: 3}
+  - FullName: GameMechanics.LocationBuilding.LocationBuildingBundleRequester
+    CodeFile: {fileID: 11500000, guid: 8f3edf54cb884d17a9487c49732e7cbd, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.TaskBuilders.IdleTaskBuilder
+    CodeFile: {fileID: 11500000, guid: 56554af993324c108cad1014eb495267, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.OperatingTaskBuilder
+    CodeFile: {fileID: 11500000, guid: a12e8c337ea74ce787252f4a5accd9b4, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Schedule.OperatingTasksScheduleService
+    CodeFile: {fileID: 11500000, guid: caa9422babf04244aaecd1105bee70ea, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.TaskBuilders.ReturnHomeTaskBuilder
+    CodeFile: {fileID: 11500000, guid: e55bb56701a7481daf096571a6242621, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.InGameBoostWindowService
+    CodeFile: {fileID: 11500000, guid: 00fcb6ea484aade42813f10e0f29677e, type: 3}
+  - FullName: ClientsBackgroundService
+    CodeFile: {fileID: 11500000, guid: f762b2b8e1e113f45a89c64aafd3c2fe, type: 3}
+  - FullName: GameMechanics.TimeManager.Characters.Motion.MotionTweenSpeedValidator
+    CodeFile: {fileID: 11500000, guid: afb6bcaface349259a912329eb9337d5, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Lose.AddTimeOnLoseWindowService
+    CodeFile: {fileID: 11500000, guid: ef5b912222c9435faf30cc945a761099, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.Invokers.ChangeScreenInvoker
+    CodeFile: {fileID: 11500000, guid: 0184cdd2b6104e7682d80cce1939fa4c, type: 3}
+  - FullName: GameMechanics.TimeManager.Level.ClientsBackground.ClientsBackgroundService
+    CodeFile: {fileID: 11500000, guid: f762b2b8e1e113f45a89c64aafd3c2fe, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.Invokers.DebugMessageInvoker
+    CodeFile: {fileID: 11500000, guid: 97890616eaed49b89b8956e49738c05a, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.CookingTime.Invokers.GamePauseInvoker
+    CodeFile: {fileID: 11500000, guid: 7d625a8694db46efa8036043d2cdd09c, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.HardCurrencyService
+    CodeFile: {fileID: 11500000, guid: 0a3cc4dd8d59458889aa35f861561fb2, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Lose.LoseService
+    CodeFile: {fileID: 11500000, guid: 7b05965426084f5e8879ea95d616fad3, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Lose.LoseTaskViewPanelValidationService
+    CodeFile: {fileID: 11500000, guid: eb2ba117e6704d9ca84ebd950055b1e4, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Lose.LoseWindowService
+    CodeFile: {fileID: 11500000, guid: 7248049bca02431f978ad3fa4e7c8934, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.Invokers.MethodInvoker
+    CodeFile: {fileID: 11500000, guid: 90715fd377bf4225825c6fb0fc9b3b4b, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.Validators.ScreenValidator
+    CodeFile: {fileID: 11500000, guid: 58f3321bb91f47d196f976a6720b2c77, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.SoftCurrencyService
+    CodeFile: {fileID: 11500000, guid: 6dbd59c6ea6642df8422deee1700022c, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.Validators.TimeManagerLevelValidator
+    CodeFile: {fileID: 11500000, guid: 6e1bff41e5e84a419eabf4ea5cd5d5cb, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.TutorialBlockService
+    CodeFile: {fileID: 11500000, guid: a51e1e991cd244ae969ea007c61eacad, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.Validators.TutorialBlockValidator
+    CodeFile: {fileID: 11500000, guid: 1526727384b6443fab7828b7f8514739, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.TutorialDataService
+    CodeFile: {fileID: 11500000, guid: ddd021a608454446a83fbb6ba4d20659, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.TutorialInvokeService
+    CodeFile: {fileID: 11500000, guid: 6fd0935960a748d987bc360030394dba, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.TutorialSearchService
+    CodeFile: {fileID: 11500000, guid: 0881bcd31bce47db9d6ee31c35434d39, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.TutorialService
+    CodeFile: {fileID: 11500000, guid: bd9dc1d1671e464b9aeb8d7efc67af79, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.TutorialStepService
+    CodeFile: {fileID: 11500000, guid: d0e050315473430ea7a4bdfd5fda644a, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.TutorialValidationService
+    CodeFile: {fileID: 11500000, guid: 99ac347b0f314c2db6e240df1f0731e4, type: 3}
+  - FullName: ProjectCore.GameSystems.UIManagement.UIBlockService
+    CodeFile: {fileID: 11500000, guid: b8c13d3e8ca4483388cd7797db1c590a, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.Invokers.UIElementAnimationInvoker
+    CodeFile: {fileID: 11500000, guid: 7c639e3119424c1e8125d86ef2a914d9, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.Validators.UIElementClickValidator
+    CodeFile: {fileID: 11500000, guid: 57564cdcb1104cf49aa34f808a193893, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.Searchers.UIElementSearcher
+    CodeFile: {fileID: 11500000, guid: fef768e05e104e7fb8245b7f25f44b5b, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.Validators.WindowStatusChangeValidator
+    CodeFile: {fileID: 11500000, guid: 5e6828f0290c4a799fce9779d0f30be7, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.CookingTime.Handlers.LocationBuildingTaskCompleteValidator
+    CodeFile: {fileID: 11500000, guid: f9f52fabd94a4ce6b122e657215bc39a, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.CookingTime.Validators.LocationBuildingTaskCompleteValidator
+    CodeFile: {fileID: 11500000, guid: f9f52fabd94a4ce6b122e657215bc39a, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.CookingTime.Validators.GlobalMapActionValidator
+    CodeFile: {fileID: 11500000, guid: b8a70b75b1c74cb78ca83cbfcd151477, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Lose.AddTimeOnLoseWindowService
+    CodeFile: {fileID: 11500000, guid: ef5b912222c9435faf30cc945a761099, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.HardCurrencyService
+    CodeFile: {fileID: 11500000, guid: 0a3cc4dd8d59458889aa35f861561fb2, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Lose.LoseService
+    CodeFile: {fileID: 11500000, guid: 7b05965426084f5e8879ea95d616fad3, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Lose.LoseTaskViewPanelValidationService
+    CodeFile: {fileID: 11500000, guid: eb2ba117e6704d9ca84ebd950055b1e4, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Lose.LoseWindowService
+    CodeFile: {fileID: 11500000, guid: 7248049bca02431f978ad3fa4e7c8934, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.SoftCurrencyService
+    CodeFile: {fileID: 11500000, guid: 6dbd59c6ea6642df8422deee1700022c, type: 3}
+  - FullName: GameMechanics.TimeManager.Collectables.GhostAnimationService
+    CodeFile: {fileID: 11500000, guid: 14faab2a20d27754cb9af11cb94f88dd, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.ConstructionCompleteWindowService
+    CodeFile: {fileID: 11500000, guid: 0dd0640d3c344022a6b22ef9b0522708, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Win.WinRewardService
+    CodeFile: {fileID: 11500000, guid: b6e30776587682a46b267bd4a2a51f96, type: 3}
+  - FullName: GameMechanics.TimeManager.EndlessMode.EndlessModeConfigProvider
+    CodeFile: {fileID: 11500000, guid: 04e2986b0cee4f66a04a634abed7b776, type: 3}
+  - FullName: GameMechanics.TimeManager.EndlessMode.EndlessModeDataService
+    CodeFile: {fileID: 11500000, guid: 41c06e80bf4a4b25965b28fe624b117c, type: 3}
+  - FullName: GameMechanics.TimeManager.EndlessMode.EndlessModeService
+    CodeFile: {fileID: 11500000, guid: 5e9b1a926bfb499d8c2e80f6652fe009, type: 3}
+  - FullName: GameMechanics.TimeManager.EndlessMode.EndlessModeWindowService
+    CodeFile: {fileID: 11500000, guid: 1d7e83b1cc3b4caea652bba6d2c3e7c3, type: 3}
+  - FullName: GameMechanics.TimeManager.Level.LevelsProgressService
+    CodeFile: {fileID: 11500000, guid: 622303c1db524dccafe53adbef9c6ddb, type: 3}
+  - FullName: ProjectCore.GameSystems.Localization.LocalizeService
+    CodeFile: {fileID: 11500000, guid: 7ff31d9f0d4040488344d9d07be449db, type: 3}
+  - FullName: ProjectCore.GameSystems.TutorialSystem.CookingTime.Validators.LocationBuildingCompleteValidator
+    CodeFile: {fileID: 11500000, guid: f9f52fabd94a4ce6b122e657215bc39a, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationTaskService
+    CodeFile: {fileID: 11500000, guid: 2e5f9b99230800e4d85256e189b576be, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationTasksInfoService
+    CodeFile: {fileID: 11500000, guid: 0cdbcef364f482d458a78ace505da6d3, type: 3}
+  - FullName: GameMechanics.LocationBuilding.Tasks.LocationTaskWindowService
+    CodeFile: {fileID: 11500000, guid: 78ecd44170af76e41a96a61cbf5dac5f, type: 3}
+  - FullName: RewardCoinCoreService
+    CodeFile: {fileID: 11500000, guid: 69cd29ff531c2104d817867858ff9676, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.StartLevelPanelValidator
+    CodeFile: {fileID: 11500000, guid: e9f67261bc614674b6a55159b7efe36b, type: 3}
+  - FullName: GameMechanics.TimeManager.Level.TimeManagerLevelCompleteManager
+    CodeFile: {fileID: 11500000, guid: 63ebe81af61442fca7b0bed395067739, type: 3}
+  - FullName: ProjectCore.GameSystems.ShopSystem.PurchaseSuccessViewService
+    CodeFile: {fileID: 11500000, guid: 2edf288a812921248b5b4dd7a2c71796, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.GhostResourceIndicatorService
+    CodeFile: {fileID: 11500000, guid: 866597dcd8728d942a4eb9384179a3a5, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Lives.BuyLivesWindowService
+    CodeFile: {fileID: 11500000, guid: e058a13bd94349f3862b82752244fbe9, type: 3}
+  - FullName: GameMechanics.TimeManager.EndlessMode.EndlessModeAnnounceWindowService
+    CodeFile: {fileID: 11500000, guid: 48b60cf6c3c3e9642b60ff9c0f527a32, type: 3}
+  - FullName: ProjectCore.GameSystems.GameResourceSystem.GameResourceIconGiver
+    CodeFile: {fileID: 11500000, guid: 778119d06a294a45b7f85b0c5c6e736e, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Lives.LivesConfigService
+    CodeFile: {fileID: 11500000, guid: 2711c25980e44613bcfbdf89c0a6600a, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Lives.LivesDataService
+    CodeFile: {fileID: 11500000, guid: cb6d6624565e4215959eeb7f5bc7a098, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.Lives.LivesService
+    CodeFile: {fileID: 11500000, guid: 523b9b38b4854fcd8bfc9f541095bfe8, type: 3}
+  - FullName: GameMechanics.GlobalMap.Map.View.MapLoadingWindowService
+    CodeFile: {fileID: 11500000, guid: 15bca9bc9e9308e4e93232312ef3be98, type: 3}
+  - FullName: ProjectCore.GameSystems.VibrationSystem.VibrationConfigProvider
+    CodeFile: {fileID: 11500000, guid: 3da415ae0017efe45bb46c42c2ab715d, type: 3}
+  - FullName: ProjectCore.GameSystems.VibrationSystem.VibrationService
+    CodeFile: {fileID: 11500000, guid: 285cf72d143158344b6de86f5d9c7b9e, type: 3}
+  - FullName: GameMechanics.Windows.NotEnoughMoneyWindow.NotEnoughMoneyService
+    CodeFile: {fileID: 11500000, guid: ae12b673a3bb420cb4087a8ea8d0f118, type: 3}
+  - FullName: GameMechanics.LocationBuilding.LevelReward.MetaLevelRewardService
+    CodeFile: {fileID: 11500000, guid: ab9dc8bfdc58ab5409e01b05902be744, type: 3}
+  - FullName: GameMechanics.TimeManager.PlayerAvatar.PlayerAvatarViewService
+    CodeFile: {fileID: 11500000, guid: 0fe20f7da775a4f48bbca6e962054a76, type: 3}
+  - FullName: ProjectCore.GameSystems.SettingsSystem.SettingsDataDataService
+    CodeFile: {fileID: 11500000, guid: 581a88275c5049569c55c1178b8c72c6, type: 3}
+  - FullName: ProjectCore.GameSystems.SettingsSystem.SettingsWindowService
+    CodeFile: {fileID: 11500000, guid: 8fe9513af63d41c58eac1222bb85adda, type: 3}
+  - FullName: GameMechanics.TimeManager.EndlessMode.NewLevelAnnounceViewService
+    CodeFile: {fileID: 11500000, guid: 8f49cfe824fd5be46a0e47e991ceee9a, type: 3}
+  - FullName: ProjectCore.GameSystems.PushSystem.PushService
+    CodeFile: {fileID: 11500000, guid: a39590b9f3366c646a560aaff9c4da4b, type: 3}
+  - FullName: ProjectCore.GameSystems.Analytics.Adapters.AmplitudeAnalyticAdapter
+    CodeFile: {fileID: 11500000, guid: 110d987a5f4049a598fcc27a56f05858, type: 3}
+  - FullName: ProjectCore.GameSystems.Analytics.AnalyticsConfigRequester
+    CodeFile: {fileID: 11500000, guid: 7159472d8cd0489885181e1950ee69bc, type: 3}
+  - FullName: ProjectCore.GameSystems.Analytics.AnalyticService
+    CodeFile: {fileID: 11500000, guid: bfc09252bbd647caa186af83df11556e, type: 3}
+  - FullName: ProjectCore.GameSystems.Analytics.Adapters.AppsFlyerAnalyticAdapter
+    CodeFile: {fileID: 11500000, guid: 069b98d9caf74badbd0d39fe0aa1e558, type: 3}
+  - FullName: ProjectCore.GameSystems.Analytics.EventHandlers.AppUpdateEventHandler
+    CodeFile: {fileID: 11500000, guid: e78b664fc1d749b7b1e5016c4e6abaf7, type: 3}
+  - FullName: ExitGameService
+    CodeFile: {fileID: 11500000, guid: ff84a56ebedf74c45b0b5f0593d2b67c, type: 3}
+  - FullName: ProjectCore.GameSystems.Analytics.Adapters.FacebookAnalyticAdapter
+    CodeFile: {fileID: 11500000, guid: d86fe49473224c2a8ae8929fe79a35e3, type: 3}
+  - FullName: ProjectCore.GameSystems.Analytics.Adapters.FirebaseAnalyticAdapter
+    CodeFile: {fileID: 11500000, guid: 1ff2b71367f348d596bae123c7d85f0d, type: 3}
+  - FullName: ProjectCore.GameSystems.Analytics.EventHandlers.FirstLaunchEventHandler
+    CodeFile: {fileID: 11500000, guid: 57af1230828b47929e3e825f15233110, type: 3}
+  - FullName: ProjectCore.GameSystems.Analytics.EventHandlers.LevelCompleteEventHandler
+    CodeFile: {fileID: 11500000, guid: bb3c2e66322a466d8203af793f972485, type: 3}
+  - FullName: GameMechanics.TimeManager.Level.LevelTryAmountService
+    CodeFile: {fileID: 11500000, guid: 26a6571ac62d426f96b83aa5438cac89, type: 3}
+  - FullName: GameMechanics.Tutorial.TutorialController
+    CodeFile: {fileID: 11500000, guid: 2dada501151345640aa256b79d767a19, type: 3}
+  - FullName: ThirdPartySdk.Management.AdController
+    CodeFile: {fileID: 11500000, guid: f45b93e55217b4947b27ced0ed718349, type: 3}
+  - FullName: GameMechanics.TimeManager.Boosters.BoosterIdService
+    CodeFile: {fileID: 11500000, guid: 53c21fa3460770f44bc7b978425406fb, type: 3}
+  - FullName: GameMechanics.GlobalMap.ChangeLocationService
+    CodeFile: {fileID: 11500000, guid: f4dad46a626c52c46a7664a82946a1a1, type: 3}
+  - FullName: GameMechanics.Windows.ConversationWindow.ConversationService
+    CodeFile: {fileID: 11500000, guid: 1d8881f3c1b205946b068d039c1c201e, type: 3}
+  - FullName: GameMechanics.Windows.ConversationWindow.ConversationWindowService
+    CodeFile: {fileID: 11500000, guid: 10366f3955a33ed4a8f7b6f5bb0af41a, type: 3}
+  - FullName: GameMechanics.TimeManager.DailyReward.DailyRewardConfigProvider
+    CodeFile: {fileID: 11500000, guid: a0c3ba998f5effd448775cdc930f5bc6, type: 3}
+  - FullName: GameMechanics.TimeManager.DailyReward.DailyRewardService
+    CodeFile: {fileID: 11500000, guid: 199aedbaaeae91443b9819898ad810ed, type: 3}
+  - FullName: GameMechanics.TimeManager.GameLoop.ExitService
+    CodeFile: {fileID: 11500000, guid: f272c9ffe6348674c8e89554df7d3fd2, type: 3}
+  - FullName: GameMechanics.FakeRandom.FakeRandomService
+    CodeFile: {fileID: 11500000, guid: 125bc98b1dc95c54ca43b39a54577cd1, type: 3}
+  - FullName: GameMechanics.TimeManager.HelperFinger.HelperBoosterFingerService
+    CodeFile: {fileID: 11500000, guid: 151117eb72aae374dacc65d027bc7b97, type: 3}
+  - FullName: LevelDecorService
+    CodeFile: {fileID: 11500000, guid: 279533051bd60f649a7e5a57c487a26d, type: 3}
+  - FullName: LivesQuitService
+    CodeFile: {fileID: 11500000, guid: cab7076e6b53e61438fc76ad4e5adc71, type: 3}
+  - FullName: GameMechanics.TimeManager.LevelObjects.RestorablePlatform.LORestorablePlatformService
+    CodeFile: {fileID: 11500000, guid: 53566f012c4dd20438e1a4431c53107a, type: 3}
+  - FullName: ProjectCore.GameSystems.NoInternetWindowService
+    CodeFile: {fileID: 11500000, guid: 5c00980e088a4eb1a193e98cd6b994a1, type: 3}
+  - FullName: ProjectCore.GameSystems.SettingsSystem.ProjectSettingsService
+    CodeFile: {fileID: 11500000, guid: a0cc47b4e7174441b36b77c50284f27b, type: 3}
+  - FullName: ProjectCore.GameSystems.Analytics.EventHandlers.PropertiesHandler
+    CodeFile: {fileID: 11500000, guid: 1247d09a25c26a0429b0c88f39a9a5f6, type: 3}
+  - FullName: GameMechanics.TimeManager.CharacterTasks.Schedule.ScheduleHelperService
+    CodeFile: {fileID: 11500000, guid: 59e3306c959525149b9859d163de70c9, type: 3}
+  - FullName: GameMechanics.LocationBuilding.SpecialOffer.SpecialOfferCompleteLevelManager
+    CodeFile: {fileID: 11500000, guid: 3fd67cfbd7f554946984328d4a31e16f, type: 3}
+  - FullName: GameMechanics.LocationBuilding.SpecialOffer.SpecialOfferConfigService
+    CodeFile: {fileID: 11500000, guid: 844f0ba5bd3553e4292231636470f248, type: 3}
+  - FullName: GameMechanics.LocationBuilding.SpecialOffer.SpecialOfferDataService
+    CodeFile: {fileID: 11500000, guid: 0177abf9431687241b130d86049f751c, type: 3}
+  - FullName: GameMechanics.LocationBuilding.SpecialOffer.SpecialOfferService
+    CodeFile: {fileID: 11500000, guid: 7b19d2daff5351d46bf2ae9a152c5953, type: 3}
+  - FullName: GameMechanics.LocationBuilding.SpecialOffer.SpecialOfferShopConfigValidationManager
+    CodeFile: {fileID: 11500000, guid: 28c4c7a21cf95f44ab753ea6125ced42, type: 3}
+  - FullName: GameMechanics.LocationBuilding.SpecialOffer.SpecialOfferWindowService
+    CodeFile: {fileID: 11500000, guid: 9873392d7b9e6c84eb06f65e0d1bf5b5, type: 3}
+  - FullName: GameMechanics.Tutorial.TutorialTaskService
+    CodeFile: {fileID: 11500000, guid: 3c9f147e62c3b664abcacad07cdf0008, type: 3}
+  - FullName: GameMechanics.TimeManager.VigenteService
+    CodeFile: {fileID: 11500000, guid: 12dc7b35cdf54bf392050469be9249d9, type: 3}
+  - FullName: SpaceShooter.Core.Asteroids.AsteroidControllerCommon
+    CodeFile: {fileID: 11500000, guid: c2d6446bd92843f88b23cef28051007c, type: 3}
+  - FullName: SpaceShooter.Core.Asteroids.AsteroidControllerHard
+    CodeFile: {fileID: 11500000, guid: dd142857662a413897b18fea412a480f, type: 3}
+  - FullName: SpaceShooter.Core.Asteroids.AsteroidControllerSnowball
+    CodeFile: {fileID: 11500000, guid: 9599e7dc3c474806912b8a385cc171e3, type: 3}
+  - FullName: SpaceShooter.Core.Asteroids.AsteroidControllerSplitter
+    CodeFile: {fileID: 11500000, guid: 8bfb045ac2804b42b52f102b094ba2c5, type: 3}
+  - FullName: SpaceShooter.Core.Asteroids.AsteroidService
+    CodeFile: {fileID: 11500000, guid: 1807a29308b846e49a71114d7f75102f, type: 3}
+  - FullName: SpaceShooter.CameraService
+    CodeFile: {fileID: 11500000, guid: 83967781d91f41a4a08fbab4eed64d16, type: 3}
+  - FullName: SpaceShooter.CoreUIService
+    CodeFile: {fileID: 11500000, guid: 7f2c65aaf1ec457d9967b8b4dd0de789, type: 3}
+  - FullName: SpaceShooter.DataService
+    CodeFile: {fileID: 11500000, guid: 6c83da6095c241a9b753dfd6940b693e, type: 3}
+  - FullName: SpaceShooter.ExitToMapService
+    CodeFile: {fileID: 11500000, guid: ca165b16e7834f8f8fbc36a26a352d95, type: 3}
+  - FullName: SpaceShooter.GameLoopService
+    CodeFile: {fileID: 11500000, guid: 601e8f8567a44764827c0d7879cc4aed, type: 3}
+  - FullName: SpaceShooter.GameRunner
+    CodeFile: {fileID: 11500000, guid: 55798665aa714609bc618c170e717eb5, type: 3}
+  - FullName: SpaceShooter.InputController
+    CodeFile: {fileID: 11500000, guid: 1ad4ae6afe2947a99ab6f5daab55637f, type: 3}
+  - FullName: SpaceShooter.Core.Asteroids.LevelDataGenerator
+    CodeFile: {fileID: 11500000, guid: 1ba39b4d954a4e1186b3169804935783, type: 3}
+  - FullName: SpaceShooter.Core.Asteroids.LevelDataService
+    CodeFile: {fileID: 11500000, guid: 62dda89c991d482584621ea0a321d406, type: 3}
+  - FullName: SpaceShooter.Map.LevelProgressService
+    CodeFile: {fileID: 11500000, guid: dcbff7e174e5458d9b9b2792a7e9e002, type: 3}
+  - FullName: SpaceShooter.Map.LevelsSequenceService
+    CodeFile: {fileID: 11500000, guid: f87e00d35b7e47fdb6463865757d7b07, type: 3}
+  - FullName: SpaceShooter.LevelTimeService
+    CodeFile: {fileID: 11500000, guid: 3c8e4e8590cc4b13ad07ffc38df23670, type: 3}
+  - FullName: SpaceShooter.LevelTimeViewService
+    CodeFile: {fileID: 11500000, guid: dda9886850c24f789f3fd92206f657e9, type: 3}
+  - FullName: SpaceShooter.Lose.LoseService
+    CodeFile: {fileID: 11500000, guid: 0906943d602c4974b8b4d11125d51fb1, type: 3}
+  - FullName: SpaceShooter.Lose.LoseWindowService
+    CodeFile: {fileID: 11500000, guid: 1b92941b024240cfa1a255bc069f57c4, type: 3}
+  - FullName: SpaceShooter.Map.MapViewService
+    CodeFile: {fileID: 11500000, guid: d60d6466281b4857970e49237ad011ec, type: 3}
+  - FullName: SpaceShooter.PlayerLiveService
+    CodeFile: {fileID: 11500000, guid: efde8cb76d7f4e46ab54903e77b55b88, type: 3}
+  - FullName: SpaceShooter.PlayerLiveViewService
+    CodeFile: {fileID: 11500000, guid: 2650ac6de5d34860993c17361059146f, type: 3}
+  - FullName: SpaceShooter.ScreenService
+    CodeFile: {fileID: 11500000, guid: f71a5f42e40b48f19b75430c943ce63e, type: 3}
+  - FullName: SpaceShooter.Core.Ship.ShipMotionService
+    CodeFile: {fileID: 11500000, guid: b7b8b3b16123476ab68101a9a7326def, type: 3}
+  - FullName: SpaceShooter.Core.Ship.ShipProvider
+    CodeFile: {fileID: 11500000, guid: b1a262c4767440f7825c26d5e67fbd81, type: 3}
+  - FullName: SpaceShooter.Core.Ship.ShootingService
+    CodeFile: {fileID: 11500000, guid: ceceac9b11d24a7db4045872b7464e6d, type: 3}
+  - FullName: SpaceShooter.UIRootService
+    CodeFile: {fileID: 11500000, guid: e4fe34b3e0a64fc18c4a975c7bc2595f, type: 3}
+  - FullName: SpaceShooter.UIService
+    CodeFile: {fileID: 11500000, guid: 5ed0010d1837405a867b209c09e23ada, type: 3}
+  - FullName: SpaceShooter.WinService
+    CodeFile: {fileID: 11500000, guid: 65e980ec3a094462ba602ab6bb717163, type: 3}
+  - FullName: SpaceShooter.WinWindowService
+    CodeFile: {fileID: 11500000, guid: 77f4f5064b6a4124b631916af7e8df6d, type: 3}
+  - FullName: PlayerService
+    CodeFile: {fileID: 11500000, guid: 6fd878f971361044798c63a977a35864, type: 3}
+  - FullName: _SkyDew.Scripts.Player.MotionInputService
+    CodeFile: {fileID: 11500000, guid: 63ee6b134296499cb4fff91e97b4413a, type: 3}
+  - FullName: _SkyDew.Scripts.Player.PlayerMotionService
+    CodeFile: {fileID: 11500000, guid: 2384193446d24f1696280a0dee25fe09, type: 3}
+  - FullName: PlayerViewProvider
+    CodeFile: {fileID: 11500000, guid: 6fd878f971361044798c63a977a35864, type: 3}
+  - FullName: _SkyDew.Scripts.Common.ApplicationQuitService
+    CodeFile: {fileID: 11500000, guid: 69a51b45656942de9e3e9836c7de69d9, type: 3}
+  - FullName: _SkyDew.Scripts.Common.CameraService
+    CodeFile: {fileID: 11500000, guid: 30cfd6a6030340ab8d33a8cb4e14df44, type: 3}
+  - FullName: _SkyDew.Scripts.Common.DataService
+    CodeFile: {fileID: 11500000, guid: 6c83da6095c241a9b753dfd6940b693e, type: 3}
+  - FullName: _SkyDew.Scripts.GameItems.GameItemConfigsService
+    CodeFile: {fileID: 11500000, guid: 88da8ffb15fa4ebb836378a7db8c3377, type: 3}
+  - FullName: _SkyDew.Scripts.Common.GameRunner
+    CodeFile: {fileID: 11500000, guid: 55798665aa714609bc618c170e717eb5, type: 3}
+  - FullName: _SkyDew.Scripts.Common.GameUiService
+    CodeFile: {fileID: 11500000, guid: 31ac8a1a02d348db91cb7301d7f1da45, type: 3}
+  - FullName: _SkyDew.Scripts.Inventory.InventoryDataService
+    CodeFile: {fileID: 11500000, guid: 585dd28821d448c8946878ae2264b66c, type: 3}
+  - FullName: _SkyDew.Scripts.Inventory.InventoryPanelViewService
+    CodeFile: {fileID: 11500000, guid: bbfc6460ff7349148cc1a47ba42a9b57, type: 3}
+  - FullName: _SkyDew.Scripts.Inventory.InventoryService
+    CodeFile: {fileID: 11500000, guid: 8097d10c57ab4d3292f4a26680b63745, type: 3}
+  - FullName: _SkyDew.Scripts.Inventory.InventoryStartItemsService
+    CodeFile: {fileID: 11500000, guid: 910dcba3ab4f444ab87b8aa7dfec76c4, type: 3}
+  - FullName: _SkyDew.Scripts.Common.SaverOnExit
+    CodeFile: {fileID: 11500000, guid: 68ecc3a492594bbba1e2a96e2532da8a, type: 3}
+  - FullName: _SkyDew.Scripts.Common.ScreenService
+    CodeFile: {fileID: 11500000, guid: f71a5f42e40b48f19b75430c943ce63e, type: 3}
+  - FullName: _SkyDew.Scripts.Common.UIGhostService
+    CodeFile: {fileID: 11500000, guid: 0834a9bceaf84ba3aba07c2af3ffb462, type: 3}
+  - FullName: _SkyDew.Scripts.Common.UI.UIRootService
+    CodeFile: {fileID: 11500000, guid: e4fe34b3e0a64fc18c4a975c7bc2595f, type: 3}
+  - FullName: _SkyDew.Scripts.Common.UI.UIService
+    CodeFile: {fileID: 11500000, guid: 5ed0010d1837405a867b209c09e23ada, type: 3}
+  - FullName: _SkyDew.Scripts.Fight.AttackService
+    CodeFile: {fileID: 11500000, guid: 63535573e06f1954eb31bab076ff5571, type: 3}
+  - FullName: _SkyDew.Scripts.Fight.PlayerAttackService
+    CodeFile: {fileID: 11500000, guid: 60c134640608414c8648f2357dffd00b, type: 3}
+  - FullName: _SkyDew.Scripts.Fight.Enemy.SlimeFactory
+    CodeFile: {fileID: 11500000, guid: 113d838938494703abc696408eba9776, type: 3}
+  - FullName: _SkyDew.Scripts.Fight.Enemy.SlimeSpawner
+    CodeFile: {fileID: 11500000, guid: 113d838938494703abc696408eba9776, type: 3}
+  - FullName: _SkyDew.Scripts.Player.PlayerHealthService
+    CodeFile: {fileID: 11500000, guid: a92ce0bc32584189a52d77b44f038c6a, type: 3}

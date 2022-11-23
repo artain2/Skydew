@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0902c5e4af3541ce9ab104c6ea2491cd, type: 3}
+  m_Name: InjectorConfig
+  m_EditorClassIdentifier: 
+  InfoList:
+  - TypeName: _SkyDew.Scripts.Player.PlayerMotionService
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links: []
+  - TypeName: PlayerViewProvider
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links:
+    - FieldName: _prefab
+      Value: {fileID: 4671407269354888955, guid: a8b7199b960316b4588c80144b312ba3, type: 3}
+  - TypeName: _SkyDew.Scripts.Player.MotionInputService
+    IsInAssembly: 1
+    CollectionsInjectingOrder:
+    - CollectionFieldName: _motionInputSubs
+      TargetType: _SkyDew.Scripts.Player.IMotionInputSub
+      Injectables:
+      - _SkyDew.Scripts.Player.PlayerMotionService
+    Realizations: []
+    Links: []
+  - TypeName: _SkyDew.Scripts.Inventory.InventoryPanelViewService
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links:
+    - FieldName: _ghostPrefab
+      Value: {fileID: 3998424650276190013, guid: 3dd6317b25413c2408799bc33706b41d, type: 3}
+  - TypeName: _SkyDew.Scripts.GameItems.GameItemConfigsService
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links:
+    - FieldName: _container
+      Value: {fileID: 11400000, guid: b5727787b23a6834eb07835ed9784589, type: 2}
+  - TypeName: _SkyDew.Scripts.Inventory.InventoryService
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links: []
+  - TypeName: _SkyDew.Scripts.Inventory.InventoryDataService
+    IsInAssembly: 1
+    CollectionsInjectingOrder:
+    - CollectionFieldName: _subs
+      TargetType: _SkyDew.Scripts.Inventory.IInventorySub
+      Injectables:
+      - _SkyDew.Scripts.Inventory.InventoryPanelViewService
+    Realizations: []
+    Links: []
+  - TypeName: _SkyDew.Scripts.Common.CameraService
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links: []
+  - TypeName: _SkyDew.Scripts.Common.DataService
+    IsInAssembly: 1
+    CollectionsInjectingOrder:
+    - CollectionFieldName: _dataServices
+      TargetType: _SkyDew.Scripts.Common.IDataService
+      Injectables:
+      - _SkyDew.Scripts.Inventory.InventoryStartItemsService
+      - _SkyDew.Scripts.Inventory.InventoryDataService
+    Realizations: []
+    Links: []
+  - TypeName: _SkyDew.Scripts.Common.GameRunner
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links: []
+  - TypeName: _SkyDew.Scripts.Common.GameUiService
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links:
+    - FieldName: _gameUiPrefab
+      Value: {fileID: 3493773673611489356, guid: c8f602627c053b449bbb6132e2559c22, type: 3}
+  - TypeName: _SkyDew.Scripts.Common.ScreenService
+    IsInAssembly: 1
+    CollectionsInjectingOrder:
+    - CollectionFieldName: _screenScangeSubs
+      TargetType: _SkyDew.Scripts.Common.IScreenChangeSub
+      Injectables:
+      - _SkyDew.Scripts.Common.GameUiService
+      - _SkyDew.Scripts.Common.CameraService
+    Realizations: []
+    Links: []
+  - TypeName: _SkyDew.Scripts.Common.UI.UIRootService
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links:
+    - FieldName: _canvasPrefab
+      Value: {fileID: 2904345457176864870, guid: b18e1f675f6806a49adefc5d4724bd39, type: 3}
+  - TypeName: _SkyDew.Scripts.Common.UI.UIService
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links: []
+  - TypeName: _SkyDew.Scripts.Common.ApplicationQuitService
+    IsInAssembly: 1
+    CollectionsInjectingOrder:
+    - CollectionFieldName: _subs
+      TargetType: _SkyDew.Scripts.Common.IApplicationQuitSub
+      Injectables:
+      - _SkyDew.Scripts.Common.SaverOnExit
+    Realizations: []
+    Links:
+    - FieldName: _obsPrefab
+      Value: {fileID: 1882125413406707257, guid: f5c4818cc3b6d3d439dc0cc92924282f, type: 3}
+  - TypeName: _SkyDew.Scripts.Common.SaverOnExit
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links: []
+  - TypeName: _SkyDew.Scripts.Inventory.InventoryStartItemsService
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links: []
+  - TypeName: _SkyDew.Scripts.Fight.AttackService
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links: []
+  - TypeName: _SkyDew.Scripts.Fight.PlayerAttackService
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links:
+    - FieldName: _attackConfig
+      Value: {fileID: 11400000, guid: 0a9a02f7ab19a2c4a8665bb749fc0b12, type: 2}
+  - TypeName: _SkyDew.Scripts.Fight.Enemy.SlimeSpawner
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links:
+    - FieldName: _slimePrefab
+      Value: {fileID: 2966532692414682352, guid: f59f3943d9e242e478e7166fb1049b81, type: 3}
+  - TypeName: _SkyDew.Scripts.Player.PlayerHealthService
+    IsInAssembly: 1
+    CollectionsInjectingOrder: []
+    Realizations: []
+    Links: []
